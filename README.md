@@ -39,3 +39,5 @@ You will get a output similar to this
 [12:32:08] Gulp is running!
 [12:32:08] Finished 'default' after 1 ms
 ```
+
+some more useful gulp task(s) has been added in this repository. Please fork/download for more information :+1:
