@@ -1,5 +1,41 @@
-# gulp
+### Gulp
 
-Open command prompt / terminal where your project folder then run this below command to see the output. - ‘gulp’
+Pre-requisites
 
-For example download this entire project and place it web server (ex. tomcat) and open terminal and run ‘gulp’. It includes auto refresh using BrowserSync.
+```
+npm init
+```
+It will create the package.json on your project folder
+
+###### installation  ######
+
+* Install Gulp Globally
+* Install Gulp In devDependencies
+* Create a gulpfile.js
+
+```
+$ npm install --global gulp
+$ npm install --save-dev gulp
+```
+In the gulpfile.js file that you just created, we'll make a simple gulp task like below
+
+```
+var gulp  = require('gulp');
+
+gulp.task('default', function() {
+  console.log('Gulp is running!')
+});
+```
+
+Once you are done with this go to command prompt(your project folder) and type 'gulp'
+
+> gulp
+
+You will get a output similar to this
+
+```javascript
+[12:32:08] Using gulpfile ~/samples/myproject/gulpfile.js
+[12:32:08] Starting 'default'...
+[12:32:08] Gulp is running!
+[12:32:08] Finished 'default' after 1 ms
+```
